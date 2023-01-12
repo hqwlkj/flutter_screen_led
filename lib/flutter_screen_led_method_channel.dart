@@ -34,7 +34,6 @@ class MethodChannelFlutterScreenLed extends FlutterScreenLedPlatform {
 
   @override
   Future<String?> switchDeviceLed(String color) async {
-    print('color: ${color.toString()}');
     final result = await methodChannel.invokeMethod<String>('switchLed', {"color": color});
     return result;
   }
