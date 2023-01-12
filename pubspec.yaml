@@ -1,7 +1,8 @@
 name: flutter_screen_led
 description: A new Flutter project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/hqwlkj/flutter_screen_led
+repository: https://github.com/hqwlkj/flutter_screen_led
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
